@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Chocolate Truffle",
+    "price": 25.99,
+    "category": "Cakes",
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Rich, decadent chocolate layered cake finished with a smooth truffle ganache."
+  },
+  {
+    "id": 2,
+    "name": "Strawberry Vanilla Delight",
+    "price": 22.50,
+    "category": "Cakes",
+    "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "A light and airy vanilla sponge cake layered with fresh strawberries and whipped cream."
+  },
+  {
+    "id": 3,
+    "name": "Rainbow Sprinkle Cake",
+    "price": 28.00,
+    "category": "Cakes",
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Fun, colorful, and perfect for birthdays! A classic funfetti cake topped with buttercream."
+  },
+  {
+    "id": 4,
+    "name": "Assorted Gummies Box",
+    "price": 12.99,
+    "category": "Candy",
+    "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "A mix of our best-selling chewy fruit gummies in a beautiful gift box."
+  },
+  {
+    "id": 5,
+    "name": "Artisan Caramel Chocolates",
+    "price": 18.50,
+    "category": "Candy",
+    "image": "https://images.unsplash.com/photo-1548883354-94bc0ec8c15c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Hand-dipped chocolates filled with sea-salt caramel."
+  },
+  {
+    "id": 6,
+    "name": "Luxury Spa Gift Basket",
+    "price": 45.00,
+    "category": "Gifts",
+    "image": "https://images.unsplash.com/photo-1542614471-001ccf2b449c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Relax and unwind with this premium basket of bath salts, soaps, and lotions."
+  },
+  {
+    "id": 7,
+    "name": "Cozy Coffee Mug Set",
+    "price": 24.99,
+    "category": "Gifts",
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Two ceramic mugs accompanied by premium blended coffee beans."
+  },
+  {
+    "id": 8,
+    "name": "Romantic Red Roses",
+    "price": 35.00,
+    "category": "Flowers",
+    "image": "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "A classic bouquet of one dozen long-stemmed red roses."
+  },
+  {
+    "id": 9,
+    "name": "Spring Peony Arrangement",
+    "price": 42.00,
+    "category": "Flowers",
+    "image": "https://images.unsplash.com/photo-1562690868-60bbe7293e94?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Bright and lively pink and white peonies perfect for celebrating spring."
+  },
+  {
+    "id": 10,
+    "name": "Hand-poured Soy Candle",
+    "price": 18.00,
+    "category": "Crafts",
+    "image": "https://images.unsplash.com/photo-1603006905393-31f0ff8d1235?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Lavender and vanilla scented natural soy candle in a decorative jar."
+  },
+  {
+    "id": 11,
+    "name": "Woven Macrame Wall Hanging",
+    "price": 30.00,
+    "category": "Crafts",
+    "image": "https://images.unsplash.com/photo-1520699697851-3dc6fe1ebba5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Beautiful handmade macrame wall art to bring a boho vibe to any room."
+  }
+]

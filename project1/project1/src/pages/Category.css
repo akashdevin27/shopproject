@@ -1,0 +1,32 @@
+.category-page {
+  min-height: 100vh;
+  background-color: #fff9fc;
+}
+
+.category-content {
+  padding: 120px 4rem 4rem 4rem; /* Top padding to account for fixed navbar */
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.category-content h1 {
+  font-size: 3rem;
+  color: #2c2c2c;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  border-bottom: 2px solid #d1496e;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .category-content {
+    padding: 100px 2rem 2rem 2rem;
+  }
+}

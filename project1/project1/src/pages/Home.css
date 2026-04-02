@@ -1,0 +1,184 @@
+/* src/home page/home.css */
+
+/* Reset & Global */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #fff9fc; /* Soft pastel light pink background */
+}
+
+/* Master full-screen container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+/* Navbar */
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: #ffffff;
+  padding: 0 4rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.04);
+  z-index: 100;
+}
+
+.nav-logo h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #d1496e; /* Soft rich pink */
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #555555;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #d1496e;
+  transition: width 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #d1496e;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.icon {
+  font-size: 1.25rem;
+  color: #555555;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #d1496e;
+}
+
+/* Main Split Layout Hero Section */
+.hero-section {
+  display: flex;
+  flex: 1;
+  margin-top: 80px; /* Offset for fixed navbar */
+  height: calc(100vh - 80px);
+  align-items: center; /* Vertically center content */
+  padding: 0 5rem; /* Better padding to avoid squeezed edges */
+  gap: 3rem; /* Proper gap between text and image */
+}
+
+/* Left Side Text Content */
+.hero-left {
+  flex: 1; /* Exactly 50% proportional layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #2c2c2c;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+/* Set paragraph margin to 0 for a cleaner look without the box */
+.hero-text-content p {
+  font-size: 1.15rem;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 0;
+  max-width: 90%;
+}
+
+/* Right Side Image */
+.hero-right {
+  flex: 1; /* Exactly 50% proportional layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%; /* Giving it some breathing room vertically */
+}
+
+.hero-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Prevents cropping and shows full image */
+  border-radius: 24px; /* Modern smooth corners */
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .hero-text-content h1 {
+    font-size: 3rem;
+  }
+  .hero-section {
+    padding: 0 3rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 2rem 2rem;
+    gap: 2rem;
+    height: auto;
+    overflow-y: auto; /* allow scroll if it breaks down on small screen */
+    align-items: stretch;
+  }
+  body, html, .home-container {
+    height: auto;
+    overflow: auto; /* Re-enable scroll for mobile to prevent severe crushing */
+  }
+  .hero-right {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .hero-image {
+    width: 100%;
+    height: auto;
+  }
+  .top-navbar {
+    padding: 0 2rem;
+  }
+  .nav-menu {
+    display: none; 
+  }
+}
